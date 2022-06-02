@@ -17,7 +17,7 @@ This interface will use our machine learning model for prediction in the backgro
 ## Data summary:
   This data obtained from "autoscout.nl".Dataframe (df) has 71104 records(rows), 49 features(columns),size 110 MB.
 Almost all columns explained briefly below.
-At the end of EDA proses ,69510 rows,160 columns,size 85MB.
+At the end of EDA processes ,69510 rows,160 columns,size 85MB.
 
 
 
