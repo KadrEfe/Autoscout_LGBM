@@ -20,91 +20,53 @@ Almost all columns explained briefly below.
 At the end of EDA proses ,69510 rows,160 columns,size 85MB.
 
 
-province  :*Shows where car sell from* <br/>
-make_model :*Brand and model*
 
-vehicle_age :*Vehicle age*
-
-drivetrain :*Shows where is the engine power*
-
-non_smoker_vehicle :*Smoke in car or no*
-
-empty_weight :*The vehicle's weight without passenger
-
-mileage :*Total traveled distance*
-
-co2_emissions :*Carbondioxide emission amount (g/km)*
-
-doors :*Number of doors of the vehicle*
-
-gears :*Number of gears of the vehicle*
-
-colour :*Colour of the vehicle*
-
-upholstery :*Upholstery type of vehicle -cloth,leather*
-
-combination (L/100Km) :*Avarage fuel consumption*
-
-Safety&Security :*Features for safety&security for exp;Central door lock,Driver-side airbag*
-
-price :*Price of vehicle*
-
-seller :*Who is selling,private or galery*
-
-location :*Location of vehicle*
-
-power :*Shows engine power in cc or kwh*
-
-seats :*Number of total seats of vehicle*
-
-warranty :*Warranty by galery or seller -month*
-
-general_inspection :*Shows whether vehicle need inspection*
-
-previous_owner :*Who was previous owner*
-
-engine_size :*Hows size of vehicle engine in cc or kwh*
-
-Fuel_type :*What fuel(or whether electric) type vehicle needs -Gasoline,Diesel,electric*
-
-upholstery_colour :*Colour of upholstery -Black,brown*
-
-Comfort&Convenience :*Systems ,features like  -'Air conditioning','Navigation system','Power windows' *
-
-make :*Brand of car -BMW,renault ...*
-
-gearbox :*Type of gear -automatic, manual*
-
-emission_class :*The Euro emissions standards, from Euro 1 to Euro 6*
-
-short_description :*Cars description by seller*
-
-type :*New, used*
-
-country_version :*Cars country version(Esp,NL)*
-
-first_registration :*When the car registered "month/year" *
-
-full_service_history:*Used throughout the pre-owned car market, and shows that a vehicle has been well maintained -yes,no*
-
-cylinders :*How many cylinders powering the car -4,6,8*
+province  :*Shows where car sell from*<br />
+make_model :*Brand and model*<br />
+vehicle_age :*Vehicle age*<br />
+drivetrain :*Shows where is the engine power *<br />
+non_smoker_vehicle :*Smoke in car or no *<br />
+empty_weight :*The vehicle's weight without passenger*<br />
+mileage :*Total traveled distance*<br />
+co2_emissions :*Carbondioxide emission amount (g/km)*<br />
+doors :*Number of doors of the vehicle*<br />
+gears :*Number of gears of the vehicle*<br />
+colour :*Colour of the vehicle *<br />
+upholstery :*Upholstery type of vehicle -cloth,leather*<br />
+combination (L/100Km) :*Avarage fuel consumption*<br />
+Safety&Security :*Features for safety&security for exp;Central door lock,Driver-side airbag*<br />
+price :*Price of vehicle*<br />
+seller :*Who is selling,private or galery*<br />
+location :*Location of vehicle*<br />
+power :*Shows engine power in cc or kwh*<br />
+seats :*Number of total seats of vehicle*<br />
+warranty :*Warranty by galery or seller -month*<br />
+general_inspection :*Shows whether vehicle need inspection*<br />
+previous_owner :*Who was previous owner*<br />
+engine_size :*Hows size of vehicle engine in cc or kwh*<br />
+Fuel_type :*What fuel(or whether electric) type vehicle needs -Gasoline,Diesel,electric*<br />
+upholstery_colour :*Colour of upholstery -Black,brown*<br />
+Comfort&Convenience :*Systems ,features like  -'Air conditioning','Navigation system','Power windows' *<br />
+make :*Brand of car -BMW,renault ...*<br />
+gearbox :*Type of gear -automatic, manual*<br />
+emission_class :*The Euro emissions standards, from Euro 1 to Euro 6*<br />
+short_description :*Cars description by seller*<br />
+type :*New, used*<br />
+country_version :*Cars country version(Esp,NL)*<br />
+first_registration :*When the car registered "month/year" *<br />
+full_service_history:*Used throughout the pre-owned car market, and shows that a vehicle has been well maintained -yes,no*<br />
+cylinders :*How many cylinders powering the car -4,6,8*<br />
 
 
 
 ### Python libraries : 
 
-joblib==1.1.0
-
-lightgbm==2.2.3
-
-numpy==1.21.4
-
-pandas==1.3.4
-
-scikit-learn==1.0.2
-
-streamlit==1.8.1
-
+joblib==1.1.0<br />
+lightgbm==2.2.3<br />
+numpy==1.21.4<br />
+pandas==1.3.4<br />
+scikit-learn==1.0.2<br />
+streamlit==1.8.1<br />
 
 
 ## Read data from google drive,afterwards take a copy of data to clean.
