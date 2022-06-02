@@ -24,14 +24,14 @@ At the end of EDA proses ,69510 rows,160 columns,size 85MB.
 province  :*Shows where car sell from*<br />
 make_model :*Brand and model*<br />
 vehicle_age :*Vehicle age*<br />
-drivetrain :*Shows where is the engine power *<br />
-non_smoker_vehicle :*Smoke in car or no *<br />
+drivetrain :*Shows where is the engine power*<br />
+non_smoker_vehicle :*Smoke in car or no*<br />
 empty_weight :*The vehicle's weight without passenger*<br />
 mileage :*Total traveled distance*<br />
 co2_emissions :*Carbondioxide emission amount (g/km)*<br />
 doors :*Number of doors of the vehicle*<br />
 gears :*Number of gears of the vehicle*<br />
-colour :*Colour of the vehicle *<br />
+colour :*Colour of the vehicle*<br />
 upholstery :*Upholstery type of vehicle -cloth,leather*<br />
 combination (L/100Km) :*Avarage fuel consumption*<br />
 Safety&Security :*Features for safety&security for exp;Central door lock,Driver-side airbag*<br />
@@ -46,14 +46,14 @@ previous_owner :*Who was previous owner*<br />
 engine_size :*Hows size of vehicle engine in cc or kwh*<br />
 Fuel_type :*What fuel(or whether electric) type vehicle needs -Gasoline,Diesel,electric*<br />
 upholstery_colour :*Colour of upholstery -Black,brown*<br />
-Comfort&Convenience :*Systems ,features like  -'Air conditioning','Navigation system','Power windows' *<br />
+Comfort&Convenience :*Systems ,features like  -'Air conditioning','Navigation system','Power windows'*<br />
 make :*Brand of car -BMW,renault ...*<br />
 gearbox :*Type of gear -automatic, manual*<br />
 emission_class :*The Euro emissions standards, from Euro 1 to Euro 6*<br />
 short_description :*Cars description by seller*<br />
 type :*New, used*<br />
 country_version :*Cars country version(Esp,NL)*<br />
-first_registration :*When the car registered "month/year" *<br />
+first_registration :*When the car registered "month/year"*<br />
 full_service_history:*Used throughout the pre-owned car market, and shows that a vehicle has been well maintained -yes,no*<br />
 cylinders :*How many cylinders powering the car -4,6,8*<br />
 
@@ -79,7 +79,7 @@ Here initial dataframe
 
 
 
-### You can view EDA_1*,EDA_2* ,EDA_3* for all steps at the bottom.
+#### You can view EDA_1*,EDA_2* ,EDA_3* for all steps at the bottom.
 
 
 
@@ -122,7 +122,7 @@ another website to derive province feature.
 - Derived new features for more readable features,just optional, vehicle_age.
 
 ### Filling NaN values 
--NaN values filled with the proper functions such as "fill_most".We have several pre-prepared functions ,such as fill() ,fill_prop(), fill_most(), which can be seen in EDA_2 file.
+NaN values filled with the proper functions such as "fill_most".We have several pre-prepared functions ,such as fill() ,fill_prop(), fill_most(), which can be seen in EDA_2 file.
 
 ### Converting features
 - Converted data dtype(all data types were string) to the most proper data type for that particular feature.For instance: engine size 2000cc(string) to 2000(integer).
@@ -147,7 +147,7 @@ Additionally during visualization,colab needed upgrade matplotlib,for better vis
 ![capping](https://user-images.githubusercontent.com/70334899/171738809-1ca55704-70f9-48fa-8014-77d4d72a843f.PNG)
 
 
--Applied label encoding to convert non-numeric values to numerics for ML model.
+Applied label encoding to convert non-numeric values to numerics for ML model.
 
 ```
  from sklearn.preprocessing import LabelEncoder
@@ -206,60 +206,6 @@ Link for [EDA_2](https://colab.research.google.com/drive/17QkwZaafpTEgmkU2yQujx9
 Link for [EDA_3](https://colab.research.google.com/drive/150BfB1v7rjLZVKIEtA5AxJZ1c4j7Yplx?usp=sharing)
 
 Link for [ML-Colab](https://colab.research.google.com/drive/1CffULUbOuMyiXhiXBcsjX0myCv4ixTE8?usp=sharing)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
