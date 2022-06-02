@@ -20,8 +20,7 @@ Almost all columns explained briefly below.
 At the end of EDA proses ,69510 rows,160 columns,size 85MB.
 
 
-province  :*Shows where car sell from*
-
+province  :*Shows where car sell from* <br/>
 make_model :*Brand and model*
 
 vehicle_age :*Vehicle age*
