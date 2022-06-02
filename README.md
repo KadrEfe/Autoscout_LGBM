@@ -21,39 +21,73 @@ At the end of EDA proses ,69510 rows,160 columns,size 85MB.
 
 
 province  :*Shows where car sell from*
+
 make_model :*Brand and model*
+
 vehicle_age :*Vehicle age*
-drivetrain :*Shows where is the engine power *
-non_smoker_vehicle :*Smoke in car or no *
-empty_weight :*The vehicle's weight without passenger*
+
+drivetrain :*Shows where is the engine power*
+
+non_smoker_vehicle :*Smoke in car or no*
+
+empty_weight :*The vehicle's weight without passenger
+
 mileage :*Total traveled distance*
+
 co2_emissions :*Carbondioxide emission amount (g/km)*
+
 doors :*Number of doors of the vehicle*
+
 gears :*Number of gears of the vehicle*
-colour :*Colour of the vehicle *
+
+colour :*Colour of the vehicle*
+
 upholstery :*Upholstery type of vehicle -cloth,leather*
+
 combination (L/100Km) :*Avarage fuel consumption*
+
 Safety&Security :*Features for safety&security for exp;Central door lock,Driver-side airbag*
+
 price :*Price of vehicle*
+
 seller :*Who is selling,private or galery*
+
 location :*Location of vehicle*
+
 power :*Shows engine power in cc or kwh*
+
 seats :*Number of total seats of vehicle*
+
 warranty :*Warranty by galery or seller -month*
+
 general_inspection :*Shows whether vehicle need inspection*
+
 previous_owner :*Who was previous owner*
+
 engine_size :*Hows size of vehicle engine in cc or kwh*
+
 Fuel_type :*What fuel(or whether electric) type vehicle needs -Gasoline,Diesel,electric*
+
 upholstery_colour :*Colour of upholstery -Black,brown*
+
 Comfort&Convenience :*Systems ,features like  -'Air conditioning','Navigation system','Power windows' *
+
 make :*Brand of car -BMW,renault ...*
+
 gearbox :*Type of gear -automatic, manual*
+
 emission_class :*The Euro emissions standards, from Euro 1 to Euro 6*
+
 short_description :*Cars description by seller*
+
 type :*New, used*
+
 country_version :*Cars country version(Esp,NL)*
+
 first_registration :*When the car registered "month/year" *
+
 full_service_history:*Used throughout the pre-owned car market, and shows that a vehicle has been well maintained -yes,no*
+
 cylinders :*How many cylinders powering the car -4,6,8*
 
 
@@ -61,10 +95,15 @@ cylinders :*How many cylinders powering the car -4,6,8*
 ### Python libraries : 
 
 joblib==1.1.0
+
 lightgbm==2.2.3
+
 numpy==1.21.4
+
 pandas==1.3.4
+
 scikit-learn==1.0.2
+
 streamlit==1.8.1
 
 
